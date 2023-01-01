@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import SearchIcon from "./search.svg";
 import AnimeCard from "./AnimeCard";
+import NavBar from "./NavBar";
 
 const API_URL = "https://api.jikan.moe/v4/anime?q=";
 let ANIME_FOUND = "";
@@ -26,6 +27,9 @@ const Results = () => {
 
   return (
     <div className="app">
+      <div>
+        <NavBar />
+      </div>
       <h1>
         <a href={`/`}>Anime List</a>
       </h1>
