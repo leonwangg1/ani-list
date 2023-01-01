@@ -27,6 +27,10 @@ const AnimeDetails = () => {
       </h1>
       <h2>{title}</h2>
       <h3>{anime.synopsis}</h3>
+      <img
+        src={anime?.images?.jpg?.image_url ?? "https://via.placeholder.com/400"}
+        alt={anime.title}
+      />
     </div>
   );
 };

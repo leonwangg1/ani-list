@@ -6,8 +6,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/watch/:title" element={<AnimeDetails />} />
         <Route path="/" element={<Results />} />
+        <Route path="/watch/:title" element={<AnimeDetails />} />
       </Routes>
     </BrowserRouter>
   );
