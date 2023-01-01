@@ -1,5 +1,3 @@
-import AnimeDetails from "./AnimeDetails";
-
 const AnimeCard = ({ series }) => {
   return (
     <div className="movie">

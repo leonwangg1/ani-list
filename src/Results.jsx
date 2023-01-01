@@ -27,7 +27,7 @@ const Results = () => {
   return (
     <div className="app">
       <h1>
-        <a href="http://localhost:3000/">Anime List</a>
+        <a href={`/`}>Anime List</a>
       </h1>
 
       <div className="search">
